@@ -32,8 +32,14 @@ def go(args):
     df = df[idx].copy()
 
     #Convert last_review to datetime
-    logger.info("converting last_review to datetime")
+    logger.info("Converting reviews to datetime")
     df['last_review'] = pd.to_datetime(df["last_review"])
+
+    #Drop unproper geolocation
+    logger.info("Drop unproper geolocations")
+    idx = df['longtitude'].\
+        between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
 
     filename = "clean_sample.csv"
     df.to_csv(filename, index=False)
