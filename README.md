@@ -24,7 +24,7 @@ MLflow, Weights & Biases
 
 You can see experiments and workflow as :
 
- [(https://wandb.ai/bentata/nyc_airbnb?workspace=user-bentata)]
+ [(https://wandb.ai/bentata/nyc_airbnb)]
 
 ### How to run <a name="run"></a>
 
