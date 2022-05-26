@@ -28,12 +28,7 @@ You can see experiments and workflow as :
 
 ### How to run <a name="run"></a>
 
-If you want to clone this repository and run the program:
-
-1. Use the data and run churn_library.py
-
-
-2. Run churn_script_logging_and_tests.py for testing and logging
+Please refer to starter instructions
 
  
 
