@@ -25,6 +25,7 @@ MLflow, Weights & Biases
 You can see experiments and workflow as :
 
  [(https://wandb.ai/bentata/nyc_airbnb)]
+ [(https://github.com/BenTata-86/nyc_short_term_rental_price_prediction.git)]
 
 ### How to run <a name="run"></a>
 
